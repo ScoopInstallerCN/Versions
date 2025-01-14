@@ -1,10 +1,10 @@
 {
-    "version": "6.7.1-nightly.22",
+    "version": "7.0.1-nightly.4",
     "description": "All-in-one messaging apps for various services",
     "homepage": "https://github.com/ferdium/ferdium-app",
     "license": "Apache-2.0",
-    "url": "https://github.com/ferdium/ferdium-app/releases/download/v6.7.1-nightly.22/Ferdium-win-AutoSetup-6.7.1-nightly.22.exe#/dl.7z",
-    "hash": "sha512:cfa43a4dae78737b62acd1341a31c37ce6335a5e1d621d4714458f130a0e61548e62b9843ab238217b3db6022171aaad17b82ba1212b0a90e507dde74f5763f5",
+    "url": "https://github.com/ferdium/ferdium-app/releases/download/v7.0.1-nightly.4/Ferdium-win-AutoSetup-7.0.1-nightly.4.exe#/dl.7z",
+    "hash": "sha512:f3fd1e909aeb1d73b7b1cd0b44fe124cba23c5d7a150c2bf51b33706c0e722f2245be05d8c1cca7e47c7081c049a67fabe7bf8a134637ae13e39b55af8c964f6",
     "architecture": {
         "64bit": {
             "installer": {
