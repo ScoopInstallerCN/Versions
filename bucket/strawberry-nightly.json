@@ -1,23 +1,22 @@
 {
-    "version": "7980435043",
+    "version": "8820060660",
     "description": "A music player and music collection organizer",
     "homepage": "https://www.strawbs.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
             "url": "https://nightly.link/strawberrymusicplayer/strawberry/workflows/build/master/windows-msvc-x86_64-release.zip",
-            "hash": "e18c208e46709c83f0f1c1c2c55f102fd0e11f624c68502465640060dc965ee0"
+            "hash": "59ccf0209f18f802ea94202687ddff43614dda41e74bf7c0a09d9807f25c37fd"
         },
         "32bit": {
             "url": "https://nightly.link/strawberrymusicplayer/strawberry/workflows/build/master/windows-msvc-x86-release.zip",
-            "hash": "6f0545974b4978121a875c5177c816a8643cb5a8b354aa2e4c02d26a9d1f8070"
+            "hash": "9517d5bb770b3bb6f93224e532bce8c8452a9f19c2542076e36d4aa4229906f7"
         }
     },
     "pre_install": [
-        "Remove-Item \"$dir\\*-Debug-*.exe\"",
-        "Expand-7zipArchive \"$dir\\StrawberrySetup-*-msvc-x$($architecture.Substring(0, 2)).exe\" \"$dir\"",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-        "'StrawberrySetup-*', 'Uninstall' | ForEach-Object { Remove-Item \"$dir\\$_.exe\" }"
+        "Remove-Item \"$dir/*-Debug-*.exe\"",
+        "Expand-7zipArchive \"$dir/StrawberrySetup-*-msvc-x$($architecture.Substring(0, 2)).exe\" \"$dir\" -Removal",
+        "Remove-Item \"$dir/`$PLUGINSDIR\" -Recurse"
     ],
     "bin": "strawberry.exe",
     "shortcuts": [

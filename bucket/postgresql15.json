@@ -1,5 +1,5 @@
 {
-    "version": "15.6",
+    "version": "15.10",
     "description": "Object-relational database management system based on POSTGRES. (version 15)",
     "homepage": "https://www.postgresql.org",
     "license": "PostgreSQL",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://get.enterprisedb.com/postgresql/postgresql-15.6-1-windows-x64-binaries.zip",
-            "hash": "64e4cd8ba50aa75c4e6573665f97ce6c215e71d840d88896f82dd89bbc334b6d"
+            "url": "https://get.enterprisedb.com/postgresql/postgresql-15.10-1-windows-x64-binaries.zip",
+            "hash": "51435071d7b9c3a53402393dab44030be5b2408c6cc76a1a2041297ab2b0d792"
         }
     },
     "extract_dir": "pgsql",
